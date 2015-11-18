@@ -1,4 +1,6 @@
 # Web Engineering 2015-2016 /Node.js and Socket.io
+[![Build Status](https://travis-ci.org/SirBargus/Laboratory-4-WebSockets.svg?branch=node)](https://travis-ci.org/SirBargus/Laboratory-4-WebSockets.svg?branch=node)
+
 A simple transformation of Laboratory-4 into Node.js with a simple html + javascript frontend.
 
 ## What is ...?
@@ -32,7 +34,7 @@ $> npm start
 ```
 Your app should now be running on ```http://localhost:8080```
 
-### The app's structure
+## The app's structure
 This is a very simple app, so you should be able to understand it with the code and it's comment. This is a little explination about the app's structure:
 
 ```
@@ -49,7 +51,7 @@ test
 util
 	|-eliza.js (Eliza's logic, like: src/main/java/websockets/service/Eliza.java
 ```
-## Want more?
+## Want to learn more?
 If you want to know more about Node.js check this:
 
 1. [Planet Node.js](http://www.planetnodejs.com)
