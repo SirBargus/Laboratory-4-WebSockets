@@ -9,6 +9,38 @@ A simple transformation of Laboratory-4 into Node.js with a simple html + javasc
 ### Socket.io
 [Socket.io](http://socket.io) is a JavaScript library for realtime web applications. It enables realtime, bi-directional communication between web clients and servers, using WebSocket protocol with polling as a fallback option.
 
+## Install Node.js and NPM
+### Ubuntu
+
+On the latest version of Ubuntu, you can simply:
+
+```
+$> sudo apt-get install nodejs nodejs-dev npm
+```
+
+On earlier versions, you might need to update your repository:
+
+```
+$> sudo apt-get install python-software-properties
+$> sudo add-apt-repository ppa:chris-lea/node.js
+$> sudo apt-get update
+$> sudo apt-get install nodejs nodejs-dev npm
+```
+
+### OS X
+As simple as:
+
+```
+$> brew install node npm
+```
+
+### Windows
+Since Windows package managers are less common, I recommend just downloading the [Windows binary](https://nodejs.org/download/).
+
+
+### Other Linux distributions or more info
+Just see [this](https://github.com/nodejs/node-v0.x-archive/wiki/Installing-Node.js-via-package-manager).
+
 ## How to run?
 ### Install dependencies
 To install dependencies with npm:
